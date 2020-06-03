@@ -16,13 +16,13 @@ O GitGram é uma plataforma onde usuários podem divulgar seus repositórios e i
 
 ## Versão WEB
 
-<img src="https://user-images.githubusercontent.com/51488383/83665989-3de22980-a59a-11ea-9133-d38360b66a5e.png" width="455"><span style="padding-left:2px"></span>
-<img src="https://user-images.githubusercontent.com/51488383/83666005-45093780-a59a-11ea-968c-783fd31701de.png" width="455">
+<img src="https://user-images.githubusercontent.com/51488383/83665989-3de22980-a59a-11ea-9133-d38360b66a5e.png" width="440"><span style="padding-left:2px"></span>
+<img src="https://user-images.githubusercontent.com/51488383/83666005-45093780-a59a-11ea-968c-783fd31701de.png" width="440">
 <span style="padding-left:2px"></span>
-<img src="https://user-images.githubusercontent.com/51488383/83665993-40dd1a00-a59a-11ea-9b77-4f2bb44fe111.png" width="455"><span style="padding-left:2px"></span>
-<img src="https://user-images.githubusercontent.com/51488383/83665999-433f7400-a59a-11ea-9fd5-53f27f0ea02b.png" width="455">
+<img src="https://user-images.githubusercontent.com/51488383/83665993-40dd1a00-a59a-11ea-9b77-4f2bb44fe111.png" width="440"><span style="padding-left:2px"></span>
+<img src="https://user-images.githubusercontent.com/51488383/83665999-433f7400-a59a-11ea-9fd5-53f27f0ea02b.png" width="440">
 <span style="padding-left:2px"></span>
-<img src="https://user-images.githubusercontent.com/51488383/83666001-4470a100-a59a-11ea-95f8-84c57a5fd47f.png" width="455">
+<img src="https://user-images.githubusercontent.com/51488383/83666001-4470a100-a59a-11ea-95f8-84c57a5fd47f.png" width="440">
 <span style="padding-left:2px"></span>
 
 ## :information_source: Como rodar a aplicação
@@ -105,6 +105,6 @@ yarn install
 yarn start
 ```
 
-<img src="https://user-images.githubusercontent.com/51488383/83665989-3de22980-a59a-11ea-9133-d38360b66a5e.png" width="455"><span style="padding-left:2px"></span>
-<img src="https://user-images.githubusercontent.com/51488383/83665989-3de22980-a59a-11ea-9133-d38360b66a5e.png" width="455">
+<img src="https://user-images.githubusercontent.com/51488383/83665989-3de22980-a59a-11ea-9133-d38360b66a5e.png" width="440"><span style="padding-left:2px"></span>
+<img src="https://user-images.githubusercontent.com/51488383/83665989-3de22980-a59a-11ea-9133-d38360b66a5e.png" width="440">
 <span style="padding-left:2px"></span>
