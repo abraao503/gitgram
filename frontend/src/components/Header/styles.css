@@ -1,0 +1,91 @@
+header {
+  display: grid;
+  grid-template-columns: 4fr 1fr 300px;
+  align-items: center;
+  background-color: #24292E;
+  height: 70px;
+}
+
+header .box1 {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+header .box1 svg {
+  color: #fff;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+header .box1 svg:hover {
+  opacity: 0.85;
+}
+
+header .box2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  transition: 0.3s;
+  grid-column-start: 3;
+  padding-right: 30px;
+}
+
+header .box2 svg {
+  color: #fff;
+  transition: 0.3s;
+}
+
+header .box2 svg:hover {
+  color: #ff3d3d;
+}
+
+header .box2 .user {
+  display: flex;
+  align-items: center;
+}
+
+header .user img {
+  border-radius: 50%;
+  max-height: 40px;
+}
+
+header .username {
+  text-align: right;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 20px;
+  transition: 0.3s;
+}
+
+header .username:hover {
+  opacity: 0.8;
+}
+
+header .screen-name {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+header button {
+  height: 35px;
+  background-color: #3CD05D;
+  border: 0;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.5s;
+  cursor: pointer;
+  margin: 0 25px;
+  transition: 0.3s;
+}
+
+header button:hover {
+  background-color: #33c353;
+}

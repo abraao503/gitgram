@@ -1,0 +1,110 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.profile-container .repository-list {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: 50px;
+  grid-column-gap: 25px;
+  grid-row-gap: 40px;
+  color: #222;
+}
+
+@media (max-width: 1500px){
+  .profile-container .repository-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 960px) {
+  .profile-container .repository-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.profile-container .repository-list .user-repository {
+  display: grid;
+  width: 360px;
+  padding: 15px 0px 15px 25px;
+  background-color: #FFF;
+  font-size: 18px;
+  grid-template-columns: 80% 20%;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.25);
+  word-wrap: break-word;
+}
+
+.profile-container .repository-list .user-repository .box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile-container .repository-list .user-repository .box1 .input-editing {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.profile-container .repository-list .user-repository .box1 .fields-name {
+  display: grid;
+  grid-auto-rows: 1fr 1fr 1fr;
+  grid-row-gap: 15px;
+}
+
+.profile-container .repository-list .user-repository .box1 .fields {
+  display: grid;
+  grid-auto-rows: 1fr 1fr 1fr;
+  grid-row-gap: 15px;
+}
+
+.profile-container .repository-list .user-repository .box1 strong {
+  margin-right: 5px;
+}
+
+.profile-container .repository-list .user-repository .icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-container .repository-list .user-repository .icons .delete {
+  margin-bottom: 12px;
+  color: #888;
+  transition: 0.1s;
+}
+
+.profile-container .repository-list .user-repository .icons .delete:hover{
+  color: #fb2020;
+}
+
+.profile-container .repository-list .user-repository .icons .edit {
+  margin-left: 5px;
+  margin-bottom: 12px;
+  color: #888;
+  transition: 0.1s;
+}
+
+.profile-container .repository-list .user-repository .icons .ok {
+  margin-bottom: 12px;
+  color: #3CD05D;
+  transition: 0.1s;
+}
+
+.profile-container .repository-list .user-repository .icons .ok:hover {
+  color: #33c353;
+}
+
+.profile-container .repository-list .user-repository .icons .edit:hover {
+  color: #e6e71c;
+}
+
+.profile-container .repository-list .user-repository .icons .like {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
