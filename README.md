@@ -105,6 +105,3 @@ yarn install
 yarn start
 ```
 
-<img src="https://user-images.githubusercontent.com/51488383/83665989-3de22980-a59a-11ea-9133-d38360b66a5e.png" width="440"><span style="padding-left:2px"></span>
-<img src="https://user-images.githubusercontent.com/51488383/83665989-3de22980-a59a-11ea-9133-d38360b66a5e.png" width="440">
-<span style="padding-left:2px"></span>
