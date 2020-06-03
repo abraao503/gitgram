@@ -56,7 +56,7 @@ yarn install
 Configure as migrations e rode o projeto utilizando o NPM.
 ```bash
 #rode os arquivos de migrations
-npm knex migrate:latest
+npx knex migrate:latest
 
 #rode o backend
 npm start
