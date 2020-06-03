@@ -68,7 +68,7 @@ function Profile(){
 
     setFieldsEditing([
       title,
-      techs.toString(),
+      techs.join(', '),
       url
     ]);
   }
