@@ -1,95 +1,100 @@
-<p align="center">
-  <img src="./assets/coltech.jpeg" alt="Coltech" />
-</p>
+<h1 align="center">
+   GitGram
+</h1>
 
-<br>
+## :space_invader: Tecnologias
 
-<h3 align="center">
-   Conceitos do Node js
-</h3>
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-<p align="center">“Não espere para plantar, apenas tenha paciência para colher”!</blockquote>
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [sqlite3](https://sqlitebrowser.org/)
 
+## :computer: Projeto
 
-<p align="center">
-  <a href="#rocket-sobre-o-desafio-backend">Sobre o desafio backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-sobre-o-desafio-frontend">Sobre o desafio frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-</p>
+O GitGram é uma plataforma onde usuários podem divulgar seus repositórios e interagir com outros usuário da comunidade.
 
-## :rocket: Sobre o desafio backend
+## VERSÃO WEB
 
-Nessa Atividade, você deve criar uma aplicação para treinar o que você aprendeu até agora no Nodejs!
+--telas
 
-Essa será uma aplicação para armazenar repositórios do seu portfólio, que irá permitir a criação, listagem, atualização e remoção dos repositórios, e além disso permitir que os repositórios possam receber "likes".
+## :information_source: Como rodar a aplicação
 
-### Template da aplicação
+### Pré-requesitos
+Você vai precisar instalar [Git](https://git-scm.com), [Node.js](https://nodejs.org/) v12.16.1 ou versão posterior. 
 
-Para te ajudar nesse desafio, criamos para você um modelo que você deve utilizar como template.
+### Ferramentas opcionais
+Uma opção ao instalador de pacotes, padrão, do Node [Yarn](https://yarnpkg.com/).
 
-Agora navegue até a pasta criada e abra no Visual Studio Code, lembre-se de executar o comando `yarn` no seu terminal para instalar todas as dependências, e você terá algo parecido com isso:
+### Backend
+Clone o repositório. 
+```bash
+git clone https://github.com/abraao503/gitgram.git
 
-<p align="center">
-  <img  src="./assets/node-exemplo.png">
-</p>
+```
 
-### Rotas da aplicação
+Instale as dependências utilizando o NPM.
+```bash
+# navegue para a pasta do backend
+cd gitgram/backend
 
-Agora que você já está com o template clonado, e pronto para continuar, você deve abrir o arquivo app.js, e completar onde não possui código com o código para atingir os objetivos de cada rota.
+#instale as dependências
+npm install
 
-- **`POST /repositories`**: A rota deve receber `title`, `url` e `techs` dentro do corpo da requisição, sendo a URL o link para o github desse repositório. Ao cadastrar um novo projeto, ele deve ser armazenado dentro de um objeto no seguinte formato: `{ id: "uuid", title: 'Desafio Node.js', url: 'http://github.com/...', techs: ["Node.js", "..."], likes: 0 }`; Certifique-se que o ID seja um UUID, e de sempre iniciar os likes como 0.
+```
 
-- **`GET /repositories`**: Rota que lista todos os repositórios;
+Instale as dependências utilizando o Yarn. 
+```bash
+# navegue para a pasta do backend
+cd gitgram/backend
 
-- **`PUT /repositories/:id`**: A rota deve alterar apenas o `title`, a `url` e as `techs` do repositório que possua o `id` igual ao `id` presente nos parâmetros da rota;
+#instale as dependências
+yarn install
 
-- **`DELETE /repositories/:id`**: A rota deve deletar o repositório com o `id` presente nos parâmetros da rota;
+```
 
-- **`POST /repositories/:id/like`**: A rota deve aumentar o número de likes do repositório específico escolhido através do `id` presente nos parâmetros da rota, a cada chamada dessa rota, o número de likes deve ser aumentado em 1;
+Configure as migrations e rode o projeto utilizando o NPM.
+```bash
+#rode os arquivos de migrations
+npm knex migrate:latest
 
-**Dica**: Acima utilizamos `POST` em uma rota, mesmo ela alterando o número de likes do repositório sem criar nada diretamente.
+#rode o backend
+npm start
 
-Se dividirmos semânticamente as responsabilidades da nossa aplicação em entidades, o `like` seria uma entidade, e `repository` seria outra entidade.
+```
 
-Com essa separação, temos diferentes regras de negócio para cada entidade, assim, ao chamar a rota de `like` e adicionamos apenas um like, podemos interpretar que estamos criando um novo like, e não atualizando os likes.
+Configure as migrations e rode o projeto utilizando o Yarn.
+```bash
+#rode os arquivos de migrations
+yarn knex migrate:latest
 
-Então por que não usar `PUT` no lugar de `POST`? Justamente por estarmos "criando" UM novo like, e não atualizando o número de likes para qualquer outro valor.
+#rode o backend
+yarn start
 
-Talvez fique difícil enxergar por ser apenas um número, mas pense que cada like seja salvo em uma tabela no banco junto do usuário que realizou esse like. Agora fica mais claro que você está criando um novo like, certo?
+```
 
-Bons estudos <3
+### Frontend
+Instale as dependências e rode o frontend utilizando o NPM. 
+```bash
+# navegue a pasta do frontend (estando pasta raiz do projeto)
+cd frontend
 
+#instale as dependências
+npm install
 
+#rode o backend
+npm start
+```
 
-<h3 align="center">
-   Conceitos do ReactJS
-</h3>
+Instale as dependências e rode o frontend utilizando o Yarn. 
+```bash
+# navegue a pasta do frontend (estando pasta raiz do projeto)
+cd frontend
 
-<p align="center">“Faça seu melhor, mas sempre com prazo de entrega”!</blockquote>
+#instale as dependências
+yarn install
 
+#rode o backend
+yarn start
+```
 
-## :rocket: Sobre o desafio frontend
-
-Nesse desafio, você deve criar uma aplicação para treinar o que você aprendeu até agora no ReactJS!
-
-Agora você deve continuar desenvolvendo a aplicação que irá armazenar repositórios do seu portfólio, que você já desenvolveu o backend no último desafio utilizando o Node.js.
-
-### Template da aplicação
-
-Para te ajudar nesse desafio, criamos para você um modelo que você deve utilizar como um template do Github.
-
-Agora navegue até a pasta criada e abra no Visual Studio Code, execute o comando `yarn` no seu terminal para instalar todas as dependências e já estará pronto para iniciar.
-
-### Funcionalidades da aplicação
-
-Agora que você já está com o template clonado, e pronto para continuar, você deve abrir o arquivo **src/App.js**, e completar onde não possui código com o código para atingir os objetivos de cada funcionalidade.
-
-- **`Listar os repositórios da sua API`**: Deve ser capaz de criar uma lista com o campo **title** de todos os repositórios que estão cadastrados na sua API.
-
-- **`Adicionar um repositório a sua API`**: Deve ser capaz de adicionar um novo item na sua API através de um botão com o texto **Adicionar** e, após a criação, deve ser capaz de exibir o nome dele após o cadastro.
-
-- **`Remover um repositório da sua API`**: Para cada item da sua lista, deve possuir um botão com o texto **Remover** que, ao clicar, irá chamar uma função para remover esse item da lista do seu frontend e da sua API.
-
-## :calendar: Entrega
-
-Esse desafio deve ser entregue ao JEDI da coltech.
