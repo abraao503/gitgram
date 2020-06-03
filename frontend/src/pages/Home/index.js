@@ -6,6 +6,7 @@ import api from '../../services/api';
 import { Repositories } from '../../context/Repositories';
 import { ActualScreen } from '../../context/ActualScreen';
 import AddRepository from '../../components/AddRepository';
+import EmptyListMessage from '../../components/EmptyListMessage';
 
 import defaultProfilePicture from '../../assets/img/default.png';
 import './styles.css';
@@ -13,6 +14,7 @@ import './styles.css';
 function Home(){
   const { repositories, setRepositories } = useContext(Repositories);
   const { setActualScreen } = useContext(ActualScreen);
+  const [emptyList, setEmptyList] = useState(false);
   const [likeRequest, setLikeRequest] = useState(false);
   const {token: userToken} = JSON.parse(localStorage.getItem('userData'));
 
@@ -25,11 +27,21 @@ function Home(){
     setActualScreen('Repositórios da comunidade');
   }, []);
 
+  useEffect(() => {
+    if(repositories.length){
+      setEmptyList(false);
+    }
+    else{
+      setEmptyList(true);
+    }
+  }, [repositories]);
+
   async function loadRepositories(){
     const { data } = await api.get('repositories', config);
-    console.log(data);
     setRepositories(data);
   }
+
+
 
   async function likeRepository(repositoryId, index){
     if(likeRequest){
@@ -75,6 +87,7 @@ function Home(){
   return(
     <div className="home-container">
       <AddRepository />
+      {emptyList ? <EmptyListMessage /> : null}
       <div className="repository-list">
         {repositories.map((repository, index) => (
           <div className="repository" key={repository.id}>
