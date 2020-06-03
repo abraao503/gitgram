@@ -44,7 +44,6 @@ function AddRepository(){
   }
 
   function addRepositoryInlocalArray(repository){
-    console.log(repository);
     setRepositories([repository, ...repositories]);
   }
 
