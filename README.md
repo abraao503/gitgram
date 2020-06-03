@@ -16,7 +16,11 @@ O GitGram é uma plataforma onde usuários podem divulgar seus repositórios e i
 
 ## Versão WEB
 
---telas
+![Screenshot_2020-06-03_02-09-06](https://user-images.githubusercontent.com/51488383/83665989-3de22980-a59a-11ea-9133-d38360b66a5e.png)
+![Screenshot from 2020-06-03 02-08-47](https://user-images.githubusercontent.com/51488383/83666005-45093780-a59a-11ea-968c-783fd31701de.png)
+![Screenshot from 2020-06-03 02-06-32](https://user-images.githubusercontent.com/51488383/83665993-40dd1a00-a59a-11ea-9b77-4f2bb44fe111.png)
+![Screenshot from 2020-06-03 02-07-42](https://user-images.githubusercontent.com/51488383/83665999-433f7400-a59a-11ea-9fd5-53f27f0ea02b.png)
+![Screenshot from 2020-06-03 02-08-14](https://user-images.githubusercontent.com/51488383/83666001-4470a100-a59a-11ea-95f8-84c57a5fd47f.png)
 
 ## :information_source: Como rodar a aplicação
 
