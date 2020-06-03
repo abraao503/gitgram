@@ -8,7 +8,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
-- [sqlite3](https://sqlitebrowser.org/)
+- [Sqlite3](https://sqlitebrowser.org/)
 
 ## :computer: Sobre o Projeto
 
