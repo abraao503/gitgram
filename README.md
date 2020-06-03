@@ -10,18 +10,18 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React](https://reactjs.org)
 - [sqlite3](https://sqlitebrowser.org/)
 
-## :computer: Projeto
+## :computer: Sobre o Projeto
 
 O GitGram é uma plataforma onde usuários podem divulgar seus repositórios e interagir com outros usuário da comunidade.
 
-## VERSÃO WEB
+## Versão WEB
 
 --telas
 
 ## :information_source: Como rodar a aplicação
 
 ### Pré-requesitos
-Você vai precisar instalar [Git](https://git-scm.com), [Node.js](https://nodejs.org/) v12.16.1 ou versão posterior. 
+Você vai precisar instalar [Git](https://git-scm.com), [Node.js](https://nodejs.org/) v12.16.1 (ou versão posterior). 
 
 ### Ferramentas opcionais
 Uma opção ao instalador de pacotes, padrão, do Node [Yarn](https://yarnpkg.com/).
