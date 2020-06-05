@@ -9,6 +9,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
 - [Sqlite3](https://sqlitebrowser.org/)
+- [JWT](https://jwt.io/)
 
 ## :computer: Sobre o Projeto
 
@@ -24,6 +25,11 @@ O GitGram é uma plataforma onde usuários podem divulgar seus repositórios e i
 <span style="padding-left:2px"></span>
 <img src="https://user-images.githubusercontent.com/51488383/83666001-4470a100-a59a-11ea-95f8-84c57a5fd47f.png" width="440">
 <span style="padding-left:2px"></span>
+
+## :rocket: Arquitetura REST
+
+--
+
 
 ## :information_source: Como rodar a aplicação
 
