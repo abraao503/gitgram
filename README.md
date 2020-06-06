@@ -28,7 +28,7 @@ O GitGram é uma plataforma onde usuários podem divulgar seus repositórios e i
 
 ## :rocket: Arquitetura REST
 
---
+A documentação pode ser encontrada [aqui](https://app.swaggerhub.com/apis-docs/abraao503/gitgram/1.0.0)
 
 
 ## :information_source: Como rodar a aplicação
