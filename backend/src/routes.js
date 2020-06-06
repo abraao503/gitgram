@@ -8,15 +8,12 @@ const RepositoryController = require('./controllers/RepositoryController');
 const SessionController = require('./controllers/SessionController');
 const LikeController = require('./controllers/LikeController');
 
+//para testes
+//routes.get('/users', UserController.index);
+//routes.get('/likes', LikeController.index);
+//routes.post('/users', UserController.store);
 
 routes.post('/sessions', SessionController.store);
-
-//para testes
-routes.get('/users', UserController.index);
-
-routes.get('/likes', LikeController.index);
-
-routes.post('/users', UserController.store);
 
 routes.use(authMiddleware);
 
