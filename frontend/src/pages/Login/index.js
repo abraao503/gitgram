@@ -25,7 +25,11 @@ function Login(){
       history.push('/home');
     }catch(err){
       setLoading(false);
-      toast.error('Falha no login')
+      if(err.response.status === 401){
+        toast.error('Usuário ou senha invalidos. Verifique seus dados');
+        return;
+      }
+      toast.error('Falha na conexão')
     }
   }
 

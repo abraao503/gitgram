@@ -24,7 +24,6 @@ function Register(){
       history.push('/');
     }catch(err){
       setLoading(false);
-      console.log(err.response);
       if(err.response.data.error === 'User already exists.'){
         toast.error('Nome de usuário já existe. Escolha outro');
         return;
