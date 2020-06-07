@@ -6,20 +6,14 @@
 }
 
 .profile-container .repository-list {
-  width: 80%;
+  width: 65%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   justify-items: center;
   margin-top: 50px;
-  grid-column-gap: 25px;
+  grid-column-gap: 10px;
   grid-row-gap: 40px;
   color: #222;
-}
-
-@media (max-width: 1500px){
-  .profile-container .repository-list {
-    grid-template-columns: 1fr 1fr;
-  }
 }
 
 @media (max-width: 960px) {
@@ -30,7 +24,7 @@
 
 .profile-container .repository-list .user-repository {
   display: grid;
-  width: 360px;
+  width: 83%;
   padding: 15px 0px 15px 25px;
   background-color: #FFF;
   font-size: 18px;
