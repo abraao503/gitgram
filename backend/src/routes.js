@@ -11,7 +11,8 @@ const LikeController = require('./controllers/LikeController');
 //para testes
 //routes.get('/users', UserController.index);
 //routes.get('/likes', LikeController.index);
-//routes.post('/users', UserController.store);
+
+routes.post('/users', UserController.store);
 
 routes.post('/sessions', SessionController.store);
 
