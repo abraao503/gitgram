@@ -13,7 +13,7 @@
   margin-top: 50px;
   grid-column-gap: 10px;
   grid-row-gap: 40px;
-  color: #222;
+  color: #222222;
 }
 
 @media (max-width: 960px) {
