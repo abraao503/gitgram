@@ -1,5 +1,5 @@
 <h1 align="center">
-   GitGram
+   Gitgram
 </h1>
 
 <p align="center">
@@ -23,7 +23,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :computer: Sobre o projeto
 
-O GitGram é uma plataforma onde usuários podem divulgar seus repositórios e interagir com outros usuário da comunidade.
+O Gitgram é uma plataforma onde usuários podem divulgar seus repositórios e interagir com outros usuário da comunidade.
 
 ## Versão WEB
 
